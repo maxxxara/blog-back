@@ -1,0 +1,17 @@
+{
+    "name": "dati/blog-api",
+    "autoload": {
+        "psr-4": {
+            "Dati\\BlogApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dati"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "inhere/sroute": "^3.0"
+    }
+}

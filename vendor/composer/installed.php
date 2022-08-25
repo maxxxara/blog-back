@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'dati/blog-api',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'bramus/router' => array(
+            'pretty_version' => '1.6.1',
+            'version' => '1.6.1.0',
+            'reference' => '55657b76da8a0a509250fb55b9dd24e1aa237eba',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bramus/router',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'dati/blog-api' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'inhere/sroute' => array(
+            'pretty_version' => 'v3.0.6',
+            'version' => '3.0.6.0',
+            'reference' => '52b05f0b8438f8fc1fe6eab589e22306a0b715df',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../inhere/sroute',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
